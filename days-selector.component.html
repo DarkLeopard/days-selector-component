@@ -1,0 +1,12 @@
+<ion-card class="ion-no-padding wrapper">
+  <ion-buttons [formGroup]="week">
+    <ion-button *ngFor="let day of daysOfWeek"
+                (click)="selectDay(day)"
+                [fill]="week.get(day).value ? 'solid' : 'outline'"
+                [disabled]="week.get(day).disabled || disabled"
+                [expand]="'full'" class="no-margin"
+    [color]="!!week.get(day).value ? 'green' : 'medium'">
+      {{day.toUpperCase()}}
+    </ion-button>
+  </ion-buttons>
+</ion-card>
