@@ -1,2 +1,11 @@
 # days-selector-component
-Days selector on binary actions. Use Angular + angular forms + Ionic Framework (ionic only in html + scss, ts can be used without).
+
+**JS Framework:** Angular
+
+**Tested:** Angular 8, Ionic Framework
+
+**Required:** Angular, Angular Forms, *optional Ionic Framework*
+
+HTML and SCSS use Ionic Framework. If you want to use without Ionic, rewrite the template.
+
+Days selector on binary actions.
